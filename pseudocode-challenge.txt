@@ -1,0 +1,16 @@
+1.Newton Second Law
+
+STORE "massa" to 600
+STORE "percepatan" to 2
+CALCULATE "resultan gaya" to "massa" times "percepatan"
+DISPLAY "resultan gaya"
+
+2. Tahun Kabisat
+
+STORE "year" to 2018
+IF "year" mod 4 equals to 0 AND "year" mod 100 >= 0
+	DISPLAY "Tahun Kabisat"
+ELSE IF "year" mod 400 equals to 0
+	DO "Tahun Kabisat" 
+ELSE
+	DO "Bukan Tahun Kabisat"
