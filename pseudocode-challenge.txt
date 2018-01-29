@@ -17,10 +17,22 @@ ELSE
 
 3. Laundry Day
 
-STORE "count" to 1
+STORE "clothes" with 0
 
-WHILE "count" < 21
-	DISPLAY "count"
-ENDWHILE
+WHILE "clothes" < 21
+	ADD "count" by 1
+
+DISPLAY "turn on the washing machine"
 
 4. Periksa Kuku
+
+STORE "siswa" to 1
+
+WHILE "siswa" < 41
+	CALCULATE "siswa" mod 2
+	IF "siswa" equals to 0
+		DISPLAY "dipuji"
+	ELSE
+		DISPLAY "dihukum"
+	ENDIF
+ENDWHILE
