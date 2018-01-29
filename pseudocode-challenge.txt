@@ -14,3 +14,13 @@ ELSE IF "year" mod 400 equals to 0
 	DO "Tahun Kabisat" 
 ELSE
 	DO "Bukan Tahun Kabisat"
+
+3. Laundry Day
+
+STORE "count" to 1
+
+WHILE "count" < 21
+	DISPLAY "count"
+ENDWHILE
+
+4. Periksa Kuku
