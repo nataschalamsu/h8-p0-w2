@@ -34,5 +34,3 @@ WHILE "siswa" < 41
 		DISPLAY "dipuji"
 	ELSE
 		DISPLAY "dihukum"
-	ENDIF
-ENDWHILE
