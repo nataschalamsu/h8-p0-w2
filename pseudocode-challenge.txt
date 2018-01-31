@@ -11,9 +11,9 @@ STORE "year" to 2018
 IF "year" mod 4 equals to 0 AND "year" mod 100 >= 0
 	DISPLAY "Tahun Kabisat"
 ELSE IF "year" mod 400 equals to 0
-	DO "Tahun Kabisat" 
+	DISPLAY "Tahun Kabisat" 
 ELSE
-	DO "Bukan Tahun Kabisat"
+	DISPLAY "Bukan Tahun Kabisat"
 
 3. Laundry Day
 
@@ -29,8 +29,7 @@ DISPLAY "turn on the washing machine"
 STORE "siswa" to 1
 
 WHILE "siswa" < 41
-	CALCULATE "siswa" mod 2
-	IF "siswa" equals to 0
-		DISPLAY "dipuji"
-	ELSE
+	IF "siswa" equals to "kuku panjang"
 		DISPLAY "dihukum"
+	ELSE
+		DISPLAY "dipuji"
