@@ -31,3 +31,49 @@ console.log('LOOPING KEDUA');
 for(var secondLooping =20; secondLooping >= 1; secondLooping --) {
   console.log(secondLooping + ' - I will become fullstack developer');
 }
+
+// 3.
+
+var numberLoop = 1;
+
+for(var counter = numberLoop; counter <= 100; counter ++) {
+  if(counter % 2) {
+    console.log('Ganjil');
+ } else {
+  console.log('Genap');
+ }
+}
+
+var numberLoop = 1;
+
+for(var counter = 2; counter < 100; counter += numberLoop) {
+ if((counter += numberLoop) % 3) {
+   console.log(' ');
+ } else {
+   console.log('3 Kelipatan 3');
+ }
+}
+
+var numberLoop = 5;
+var start = 1;
+
+for(var counter = start; start <= 100; start ++) {
+counter += numberLoop;
+ if(counter % 6) {
+   console.log(' ');
+ } else {
+   console.log('6 Kelipatan 6');
+ }
+}
+
+var numberLoop = 9;
+var start = 1;
+
+for(var counter = start; start <= 100; start ++) {
+counter += numberLoop;
+ if(counter % 10) {
+   console.log(' ');
+ } else {
+   console.log('10 Kelipatan 10');
+ }
+}
