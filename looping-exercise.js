@@ -44,36 +44,38 @@ for(var counter = numberLoop; counter <= 100; counter ++) {
  }
 }
 
-var numberLoop = 1;
+var numberLoop = 2;
+var start = 1;
 
-for(var counter = 2; counter < 100; counter += numberLoop) {
- if((counter += numberLoop) % 3) {
+for(var counter = start; counter < 100; start++) {
+  counter += numberLoop;
+ if(counter % 3) {
    console.log(' ');
  } else {
-   console.log('3 Kelipatan 3');
+   console.log(counter + ' Kelipatan 3');
  }
 }
 
 var numberLoop = 5;
 var start = 1;
 
-for(var counter = start; start <= 100; start ++) {
+for(var counter = start; counter < 100; start ++) {
 counter += numberLoop;
  if(counter % 6) {
    console.log(' ');
  } else {
-   console.log('6 Kelipatan 6');
+   console.log(counter + ' Kelipatan 6');
  }
 }
 
 var numberLoop = 9;
 var start = 1;
 
-for(var counter = start; start <= 100; start ++) {
+for(var counter = start; counter <= 100; start ++) {
 counter += numberLoop;
  if(counter % 10) {
    console.log(' ');
  } else {
-   console.log('10 Kelipatan 10');
+   console.log(counter + ' Kelipatan 10');
  }
 }
