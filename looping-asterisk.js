@@ -8,21 +8,33 @@ for(var s = 0; s < rows1; s ++) {
 
 // 2. Menyusun Barisan Bintang dengan Nested Looping
 
-var rows1 = 5;
+var baris = 5;
+var loopLuar = 0;
 
-for (var i = 0; i < rows1; i++) {
-  for (var j = rows1; j <= rows1; j++) {
+while(loopLuar < baris) {
+  loopLuar ++;
+  var loopDalam = 0;
+  var bintang = '';
+  while(loopDalam < baris) {
+    loopDalam ++;
+    bintang += '*';
   }
-  console.log('*'.repeat(j));
+  console.log(bintang);
 }
 
 
-// 3. M
+// 3. Menyusun Barisan Tangga Bintang Dengan Nested Looping
 
-var rows1 = 5;
+var baris = 5;
+var loopLuar = 0;
 
-for (var i = 0; i < rows1; i++) {
-  for (var j = i; j <= i; j++) {
+while(loopLuar < baris) {
+  loopLuar ++;
+  var loopDalam = 0;
+  var bintang = '';
+  while(loopDalam < loopLuar) {
+    loopDalam ++;
+    bintang += '*';
   }
-  console.log('*'.repeat(j));
+  console.log(bintang);
 }
